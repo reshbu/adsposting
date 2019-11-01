@@ -11,7 +11,8 @@ export class CribsService {
   constructor(private http: HttpClient) { }
 
   getAllCribs() {
-    return this.http.get('data/cribs.json');
+    const localUrl = 'assets/cribs.json';
+    return this.http.get(localUrl);
   }
 
   addCrib(data) {
