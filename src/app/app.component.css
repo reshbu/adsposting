@@ -1,3 +1,20 @@
 p {
-  font-family: Lato;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.container-fluid{
+  background: #9fd9e0;
+  width: auto;
+  padding:25px 25px 25px 25px;
+}
+.navbar{
+  background: #9fd9e0;
+}
+.navbar-brand{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10vw;
+}
+.container{
+   background:#a6a6a6;
+   padding-top:10px;
 }

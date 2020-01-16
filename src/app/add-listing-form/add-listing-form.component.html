@@ -1,11 +1,12 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
+<div class="card">
+  <div class="card-header">
     <h4>Add a Listing</h4>
   </div>
 
-  <div class="panel-body">
+  <div class="card-body">
 
     <form #newCribForm="ngForm" (ngSubmit)="onCribSubmit(newCribForm.value)">
+      <div class="row">
       <div class="form-group col-sm-4">
         <label for="address" class="">Address</label>
         <input
@@ -16,6 +17,7 @@
           ngModel
           required>
       </div>
+     
       <div class="form-group col-sm-4">
         <label for="price" class="">Price</label>
         <input
@@ -90,6 +92,7 @@
             Add
         </button>
       </div>
+       </div>
     </form>
 
   </div>  
