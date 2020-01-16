@@ -4,8 +4,8 @@ p {
 }
 .container-fluid{
   background: #9fd9e0;
-  width: auto;
-  padding:25px 25px 25px 25px;
+  /* width: auto;
+  padding:25px 25px 25px 25px; */
 }
 .navbar{
   background: #9fd9e0;
